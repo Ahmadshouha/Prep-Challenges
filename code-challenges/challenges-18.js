@@ -16,9 +16,7 @@
 
 const wordLength = (str) => {
     // write your code here
-    let num = str.split(" ");
-    return num[Math.floor(num.length / 2)].length;
-  };
+
 // -------------------------------------------------------------------------------------------------------
 
 
@@ -42,6 +40,7 @@ const wordLength = (str) => {
 // Output: false
 
 const wordLetters = (str1, str2) => {
+
     // write your code here
     let firststringlength = str1.length;
     let secondstringlength = str2.length;
